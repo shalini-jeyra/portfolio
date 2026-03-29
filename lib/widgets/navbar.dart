@@ -43,9 +43,9 @@ class PortfolioNavBar extends StatelessWidget {
           ShaderMask(
             shaderCallback: (bounds) =>
                 AppColors.goldGradient.createShader(bounds),
-            child: const Text(
-              'dev.',
-              style: TextStyle(
+            child: Text(
+              'Ashlin.',
+              style: Theme.of(context).textTheme.displayLarge?.copyWith(
                 color: Colors.white,
                 fontSize: 22,
                 fontWeight: FontWeight.w800,
