@@ -59922,7 +59922,7 @@ A.hn.prototype={}
 A.i_.prototype={}
 A.Co.prototype={
 O(a){var s=A.asw().$0(),r=A.LO().$5$color$fontSize$fontWeight$height$letterSpacing(B.aq,72,B.b_,1.05,-2),q=A.LO().$5$color$fontSize$fontWeight$height$letterSpacing(B.aq,48,B.aA,1.1,-1),p=A.LO().$3$color$fontSize$fontWeight(B.aq,36,B.aA),o=A.LO().$3$color$fontSize$fontWeight(B.aq,28,B.aA),n=A.LO().$3$color$fontSize$fontWeight(B.aq,22,B.N)
-return new A.t9(B.zZ,"Flutter Developer Portfolio",A.a_Q(null,B.y4,B.bD,s.a_i(A.aa2().$3$color$fontSize$height(B.ar,16,1.7),A.aa2().$3$color$fontSize$height(B.ar,14,1.6),r,q,p,o,n,A.aa2().$4$color$fontSize$fontWeight$letterSpacing(B.l,13,B.aA,1.5)),null),!1,null)}}
+return new A.t9(B.zZ,"Ashlin Shalini | Senior Flutter Developer",A.a_Q(null,B.y4,B.bD,s.a_i(A.aa2().$3$color$fontSize$height(B.ar,16,1.7),A.aa2().$3$color$fontSize$height(B.ar,14,1.6),r,q,p,o,n,A.aa2().$4$color$fontSize$fontWeight$letterSpacing(B.l,13,B.aA,1.5)),null),!1,null)}}
 A.zT.prototype={
 iq(a){return this.Uu(a)},
 Uu(a){var s=0,r=A.P(t.H),q
