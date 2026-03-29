@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import '../../utils/theme.dart';
 import '../../widgets/common_widgets.dart';
 
@@ -41,23 +42,10 @@ class PortfolioNavBar extends StatelessWidget {
         children: [
           // Logo
           // Logo
-          Image.asset(
-            'assets/images/logo.png',
+          SvgPicture.asset(
+            'assets/images/logo.svg',
             height: 48,
             fit: BoxFit.contain,
-            errorBuilder: (context, error, stackTrace) => ShaderMask(
-              shaderCallback: (bounds) =>
-                  AppColors.goldGradient.createShader(bounds),
-              child: Text(
-                'Ashlin.',
-                style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                      color: Colors.white,
-                      fontSize: 22,
-                      fontWeight: FontWeight.w800,
-                      letterSpacing: -0.5,
-                    ),
-              ),
-            ),
           ),
           // Nav links (desktop only)
           if (isWide)
