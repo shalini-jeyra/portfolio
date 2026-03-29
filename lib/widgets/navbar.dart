@@ -40,16 +40,22 @@ class PortfolioNavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           // Logo
-          ShaderMask(
-            shaderCallback: (bounds) =>
-                AppColors.goldGradient.createShader(bounds),
-            child: Text(
-              'Ashlin.',
-              style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                color: Colors.white,
-                fontSize: 22,
-                fontWeight: FontWeight.w800,
-                letterSpacing: -0.5,
+          // Logo
+          Image.asset(
+            'assets/images/logo.png',
+            height: 48,
+            fit: BoxFit.contain,
+            errorBuilder: (context, error, stackTrace) => ShaderMask(
+              shaderCallback: (bounds) =>
+                  AppColors.goldGradient.createShader(bounds),
+              child: Text(
+                'Ashlin.',
+                style: Theme.of(context).textTheme.displayLarge?.copyWith(
+                      color: Colors.white,
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: -0.5,
+                    ),
               ),
             ),
           ),
