@@ -77,9 +77,9 @@ class PortfolioData {
   static const PersonalInfo info = PersonalInfo(
     name: 'Ashlin',
     title: 'Senior Flutter Developer & Team Lead',
-    tagline: 'Senior Flutter Developer with 5+ years of experience | Open for Freelance.',
-    bio:
-        'I\'m a Senior Flutter Developer with 5+ years of experience building '
+    tagline:
+        'Senior Flutter Developer with 5+ years of experience | Open for Freelance.',
+    bio: 'I\'m a Senior Flutter Developer with 5+ years of experience building '
         'scalable, production-ready cross-platform apps. My expertise lies in '
         'Clean Architecture, reactive state management, and delivering polished '
         'iOS & Android experiences that perform at scale. '
@@ -202,7 +202,7 @@ class PortfolioData {
       isCurrent: true,
     ),
     Experience(
-      role: 'Flutter Developer',
+      role: 'Software Developer',
       company: 'Avow Solutions Inc',
       period: '2021 – 2023',
       description:
@@ -214,7 +214,7 @@ class PortfolioData {
       ],
     ),
     Experience(
-      role: 'Software Developer',
+      role: 'Software Engineer(Mobile)',
       company: 'CoreIllustrio',
       period: '2020 – 2021',
       description:
